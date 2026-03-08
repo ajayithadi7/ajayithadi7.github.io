@@ -5,21 +5,34 @@ background:#0f172a;
 color:white;
 }
 
-.hero{
+.navbar{
 display:flex;
 justify-content:space-between;
-align-items:center;
-padding:80px;
+padding:20px 80px;
 background:#020617;
+}
+
+.navbar ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:80px;
 }
 
 .profile{
 width:260px;
 border-radius:50%;
-}
-
-.hero-text{
-max-width:600px;
 }
 
 .buttons{
@@ -30,8 +43,8 @@ margin-top:20px;
 background:#6366f1;
 padding:12px 25px;
 border-radius:8px;
-color:white;
 text-decoration:none;
+color:white;
 margin-right:10px;
 }
 
@@ -39,8 +52,8 @@ margin-right:10px;
 background:#334155;
 padding:12px 25px;
 border-radius:8px;
-color:white;
 text-decoration:none;
+color:white;
 }
 
 .section{
