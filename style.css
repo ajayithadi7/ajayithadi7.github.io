@@ -1,71 +1,72 @@
 body{
-font-family:Arial;
+font-family:Poppins;
 margin:0;
 background:#0f172a;
 color:white;
 }
 
-nav{
-display:flex;
-justify-content:space-between;
-padding:20px;
-background:#020617;
-}
-
-nav ul{
-display:flex;
-gap:20px;
-list-style:none;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-}
-
-.home{
+.hero{
 display:flex;
 justify-content:space-between;
 align-items:center;
 padding:80px;
+background:#020617;
 }
 
 .profile{
-width:250px;
+width:260px;
 border-radius:50%;
+}
+
+.hero-text{
+max-width:600px;
+}
+
+.buttons{
+margin-top:20px;
 }
 
 .btn{
 background:#6366f1;
-padding:12px 20px;
-border-radius:6px;
+padding:12px 25px;
+border-radius:8px;
+color:white;
+text-decoration:none;
+margin-right:10px;
+}
+
+.btn2{
+background:#334155;
+padding:12px 25px;
+border-radius:8px;
 color:white;
 text-decoration:none;
 }
 
-section{
+.section{
 padding:60px 80px;
 }
 
-.grid{
+.skills{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:20px;
 }
 
-.card{
+.skill-card{
 background:#1e293b;
 padding:20px;
 border-radius:10px;
 }
 
 video{
+width:600px;
 margin-top:20px;
 border-radius:10px;
 }
 
 footer{
 text-align:center;
-padding:20px;
+padding:30px;
 background:#020617;
 }
