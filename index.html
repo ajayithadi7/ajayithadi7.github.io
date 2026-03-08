@@ -1,168 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Ajay Ithadi | DevOps Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<title>Ajay Ithadi | Mendix Developer</title>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
-        }
+<link rel="stylesheet" href="style.css">
 
-        body {
-            background: #0f172a;
-            color: #f1f5f9;
-            line-height: 1.6;
-        }
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 
-        header {
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            text-align: center;
-            background: linear-gradient(135deg, #1e293b, #0f172a);
-        }
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 
-        header h1 {
-            font-size: 3rem;
-            font-weight: 700;
-        }
-
-        header p {
-            font-size: 1.2rem;
-            margin-top: 10px;
-            color: #94a3b8;
-        }
-
-        .btn {
-            margin-top: 20px;
-            padding: 10px 25px;
-            background: #38bdf8;
-            color: #0f172a;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: 0.3s;
-        }
-
-        .btn:hover {
-            background: #0ea5e9;
-        }
-
-        section {
-            padding: 80px 10%;
-        }
-
-        h2 {
-            font-size: 2rem;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-
-        .card-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
-
-        .card {
-            background: #1e293b;
-            padding: 25px;
-            border-radius: 12px;
-            width: 300px;
-            transition: 0.3s;
-        }
-
-        .card:hover {
-            transform: translateY(-8px);
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #1e293b;
-            color: #94a3b8;
-        }
-
-        @media(max-width: 768px) {
-            .card-container {
-                flex-direction: column;
-                align-items: center;
-            }
-        }
-    </style>
 </head>
 
 <body>
 
+<div id="particles-js"></div>
+
 <header>
-    <h1>Ajay Ithadi</h1>
-    <p>Low-Code Developer | DevOps Enthusiast | AI Graduate</p>
-    <a href="#projects" class="btn">View My Work</a>
+<nav>
+
+<h2 class="logo">Ajay.</h2>
+
+<ul>
+
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
 </header>
 
-<section>
-    <h2>About Me</h2>
-    <p style="text-align:center; max-width:700px; margin:auto;">
-        Assistant System Engineer at TCS with hands-on experience in Mendix, REST APIs,
-        Linux, and DevOps fundamentals. Passionate about building scalable systems and
-        transitioning into Cloud & DevOps engineering.
-    </p>
+<section class="hero">
+
+<h1 data-aos="fade-up">Ajay Ithadi</h1>
+
+<h3 data-aos="fade-up">Mendix Developer | AI Integrations | Low-Code Architect</h3>
+
+<p data-aos="fade-up">
+Building Enterprise Low-Code + Agentic AI Systems
+</p>
+
+<div class="buttons">
+
+<a href="https://www.linkedin.com/in/ajayithadi/" target="_blank">LinkedIn</a>
+
+<a href="https://github.com/YOURGITHUB" target="_blank">GitHub</a>
+
+</div>
+
 </section>
 
-<section>
-    <h2>Skills</h2>
-    <div class="card-container">
-        <div class="card">
-            <h3>Low-Code</h3>
-            <p>Mendix 9.24.2, Microflows, Domain Modeling, REST Integration</p>
-        </div>
-        <div class="card">
-            <h3>DevOps</h3>
-            <p>Linux, Git, Docker (Learning), CI/CD Basics</p>
-        </div>
-        <div class="card">
-            <h3>AI & Data</h3>
-            <p>Python, ML Fundamentals, Data Analytics</p>
-        </div>
-    </div>
+<section id="about" data-aos="fade-right">
+
+<h2>About Me</h2>
+
+<p>
+
+Mendix Developer with hands-on experience building enterprise-scale 
+applications integrated with AI services and modern DevOps monitoring. 
+Experienced in microflows, REST API orchestration, SSO security models,
+and enterprise system integrations.
+
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2>Technical Skills</h2>
+
+<div class="skill-grid">
+
+<div class="card">
+<h3>Mendix</h3>
+<p>Microflows, Nanoflows, Domain Modeling</p>
+</div>
+
+<div class="card">
+<h3>Integrations</h3>
+<p>REST APIs, FastAPI, JSON Mapping</p>
+</div>
+
+<div class="card">
+<h3>DevOps</h3>
+<p>Grafana Monitoring, Deployments</p>
+</div>
+
+<div class="card">
+<h3>Security</h3>
+<p>SSO, RBAC, Secure API Integration</p>
+</div>
+
+<div class="card">
+<h3>Tools</h3>
+<p>Mendix Studio Pro, Git, Postman</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="experience">
+
+<h2>Experience</h2>
+
+<div class="timeline">
+
+<div class="timeline-card">
+
+<h3>Mendix Developer</h3>
+
+<h4>TCS / GSK</h4>
+
+<p>Nov 2024 - Present</p>
+
+<ul>
+
+<li>Built enterprise Mendix applications</li>
+
+<li>Integrated Agentic AI with FastAPI services</li>
+
+<li>Implemented secure SSO authentication</li>
+
+<li>Developed API orchestration microflows</li>
+
+<li>Monitored applications using Grafana</li>
+
+</ul>
+
+</div>
+
+</div>
+
 </section>
 
 <section id="projects">
-    <h2>Projects</h2>
-    <div class="card-container">
-        <div class="card">
-            <h3>KitchenSync Pro</h3>
-            <p>Mendix POC for managing ingredients, recipes, and shelter dashboards with role-based access.</p>
-        </div>
-        <div class="card">
-            <h3>Mendix Ordering App</h3>
-            <p>Food ordering system with REST API pricing and session-based cart management.</p>
-        </div>
-    </div>
+
+<h2>Featured Project</h2>
+
+<div class="project-card">
+
+<h3>AI Mendix Chatbot with Live Search</h3>
+
+<p>
+
+GenAI chatbot integrated with Google Gemini API and Serper search API
+for real-time intelligent responses.
+
+</p>
+
+<video controls width="600">
+
+<source src="project-video.mp4" type="video/mp4">
+
+</video>
+
+</div>
+
 </section>
 
-<section>
-    <h2>Contact</h2>
-    <div style="text-align:center;">
-        <p>Email: your-email@example.com</p>
-        <p>LinkedIn | GitHub</p>
-    </div>
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<form action="https://formspree.io/f/YOURFORMID" method="POST">
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="email" name="email" placeholder="Email" required>
+
+<textarea name="message" placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+<div class="contact-info">
+
+<p>Email: ajayithadi7@gmail.com</p>
+
+<p>Phone: +91 9398463878</p>
+
+</div>
+
 </section>
 
 <footer>
-    © 2026 Ajay Ithadi | Built with GitHub Pages
+
+<p>© 2026 Ajay Ithadi | Mendix Developer</p>
+
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
