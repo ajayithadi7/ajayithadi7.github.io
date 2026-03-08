@@ -8,292 +8,230 @@
 
 <title>Ajay Ithadi | Portfolio</title>
 
+<link rel="stylesheet" href="style.css">
+
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-<style>
-
-body{
-font-family:Poppins;
-margin:0;
-background:#0f172a;
-color:white;
-}
-
-.container{
-display:flex;
-}
-
-/* Sidebar */
-
-.sidebar{
-width:280px;
-background:#1e293b;
-height:100vh;
-padding:30px;
-position:fixed;
-text-align:center;
-}
-
-.profile{
-width:150px;
-border-radius:50%;
-border:4px solid #6366f1;
-margin-bottom:15px;
-}
-
-.sidebar h2{
-margin:10px 0;
-}
-
-.sidebar p{
-font-size:14px;
-color:#cbd5f5;
-}
-
-.btn{
-display:block;
-margin-top:15px;
-padding:10px;
-background:#6366f1;
-border-radius:8px;
-text-decoration:none;
-color:white;
-}
-
-/* Main content */
-
-.content{
-margin-left:320px;
-padding:40px;
-width:100%;
-}
-
-.card{
-background:#1e293b;
-padding:30px;
-border-radius:12px;
-margin-bottom:30px;
-}
-
-h1{
-margin-top:0;
-}
-
-ul{
-line-height:1.7;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.skill{
-background:#0f172a;
-padding:20px;
-border-radius:10px;
-}
-
-video{
-width:100%;
-border-radius:10px;
-margin-top:20px;
-}
-
-a{
-color:#60a5fa;
-}
-
-</style>
 
 </head>
 
 <body>
 
-<div class="container">
+<header class="hero">
 
-<!-- Sidebar -->
+<div class="hero-text">
 
-<div class="sidebar">
+<h1>Ajay Ithadi</h1>
 
-<img src="assets/profile.jpg" class="profile">
+<h3>Mendix Developer | Agentic AI Integrations</h3>
 
-<h2>Ajay Ithadi</h2>
+<p>
+Mendix Developer with hands-on experience building enterprise-scale low-code applications integrated with Agentic AI systems.
+</p>
 
-<p>Hyderabad, India</p>
-
-<p>+91 9398463878</p>
-
-<p>ajayithadi7@gmail.com</p>
+<div class="buttons">
 
 <a href="assets/Ajay_Ithadi_Resume.pdf" download class="btn">Download Resume</a>
 
-<a href="https://www.linkedin.com/in/ajayithadi/" target="_blank" class="btn">LinkedIn</a>
+<a href="https://www.linkedin.com/in/ajayithadi/" target="_blank" class="btn2">LinkedIn</a>
 
 </div>
 
-<!-- Main Content -->
+</div>
 
-<div class="content">
+<img src="assets/profile.jpg" class="profile">
 
-<!-- About -->
+</header>
 
-<div class="card">
 
-<h1>About Me</h1>
+<section class="section">
+
+<h2>About Me</h2>
 
 <p>
+
 Mendix Developer with hands-on experience building enterprise-scale low-code applications integrated with Agentic AI systems. Expertise in domain modeling, microflows, nanoflows, REST API orchestration, and secure SSO-based architectures. Proven ability to design scalable data models, implement role-based access control, and develop robust integration layers connecting Mendix with FastAPI services, JIRA, and other enterprise platforms. Strong background in environment deployments, performance monitoring using Grafana, and building production-ready applications aligned with modern UI/UX standards.
+
 </p>
 
-</div>
+</section>
 
-<!-- Education -->
 
-<div class="card">
+<section class="section">
 
-<h1>Education</h1>
+<h2>Education</h2>
 
 <p>
+
 Bachelor of Technology (B. Tech), Computer Science & Engineering (AI & ML)<br>
 Sai Spurthi Institute of Technology, Telangana<br>
 2020 – 2024 | CGPA: 7.0
+
 </p>
 
-</div>
+</section>
 
-<!-- Certifications -->
 
-<div class="card">
+<section class="section">
 
-<h1>Certifications</h1>
+<h2>Certifications</h2>
 
 <ul>
 
 <li>Mendix Rapid Developer</li>
+
 <li>AWS Cloud Quest: Cloud Practitioner</li>
 
 </ul>
 
-</div>
+</section>
 
-<!-- Skills -->
 
-<div class="card">
+<section class="section">
 
-<h1>Technical Skills</h1>
+<h2>Technical Skills</h2>
 
-<div class="grid">
+<div class="skills">
 
-<div class="skill">
+<div class="skill-card">
+
 <h3>Mendix Development</h3>
+
 <p>Microflows, Nanoflows, Domain Modeling, Entities & Associations, UI/Page Design, Validation Rules, Data Grids, List Views</p>
+
 </div>
 
-<div class="skill">
+
+<div class="skill-card">
+
 <h3>Integrations & APIs</h3>
+
 <p>REST APIs, JSON Mapping, Import/Export Mapping, FastAPI Integration, API Orchestration</p>
+
 </div>
 
-<div class="skill">
-<h3>Frontend & UI/UX</h3>
+
+<div class="skill-card">
+
+<h3>Frontend & UI</h3>
+
 <p>Responsive Design, Figma-based UI Implementation, Conditional Visibility</p>
+
 </div>
 
-<div class="skill">
+
+<div class="skill-card">
+
 <h3>Data & Storage</h3>
+
 <p>Mendix Database Management, Entity Modeling, Data Handling & Retrieval</p>
+
 </div>
 
-<div class="skill">
-<h3>Authentication & Security</h3>
+
+<div class="skill-card">
+
+<h3>Security</h3>
+
 <p>SSO Configuration, Role-Based Access Control (RBAC), Secure API Integration</p>
+
 </div>
 
-<div class="skill">
-<h3>Monitoring & DevOps</h3>
+
+<div class="skill-card">
+
+<h3>DevOps</h3>
+
 <p>Grafana Dashboard Monitoring, Application Logging, Debugging, Environment Deployments</p>
-</div>
-
-<div class="skill">
-<h3>Tools & Platforms</h3>
-<p>Mendix Studio Pro, Postman, Git, VS Code</p>
-</div>
 
 </div>
 
 </div>
 
-<!-- Experience -->
+</section>
 
-<div class="card">
 
-<h1>Professional Experience</h1>
+<section class="section">
+
+<h2>Professional Experience</h2>
 
 <h3>Mendix Developer</h3>
 
 <p>GSK / TCS, Bangalore, India</p>
 
-<p>Nov 2024 – now</p>
+<p>Nov 2024 – Present</p>
 
 <ul>
 
-<li>Designed and developed enterprise-grade Mendix applications with UI/UX aligned to Figma.</li>
+<li>Designed and developed enterprise-grade Mendix applications aligned with Figma UI/UX.</li>
 
-<li>Implemented SSO-based authentication and role-based access control.</li>
+<li>Implemented SSO-based authentication and RBAC.</li>
 
-<li>Built a dynamic application onboarding system with automated unique ID generation.</li>
+<li>Built application onboarding system with automated unique ID generation.</li>
 
 <li>Integrated Mendix with FastAPI-based Agentic AI services.</li>
-
-<li>Developed context-driven parameter orchestration for AI workflows.</li>
 
 <li>Designed scalable domain models and microflow-based API orchestration.</li>
 
 <li>Enabled stateful AI interactions using persisted metadata.</li>
 
-<li>Managed environment deployments and monitored system performance using Grafana.</li>
+<li>Managed environment deployments and monitored performance using Grafana.</li>
 
-<li>Collaborated with AI teams to deliver a low code + GenAI platform.</li>
+<li>Collaborated with AI teams to build low code + GenAI platforms.</li>
 
 </ul>
 
-</div>
+</section>
 
-<!-- Project -->
 
-<div class="card">
+<section class="section">
 
-<h1>Project</h1>
+<h2>Projects</h2>
 
 <h3>AI-Powered Mendix Chatbot with Live Search (Gemini + Serper)</h3>
 
 <ul>
 
-<li>Developed a GenAI chatbot using Mendix AI Starter App.</li>
+<li>Developed GenAI chatbot using Mendix AI Starter App.</li>
 
 <li>Integrated Google Gemini API for intelligent response generation.</li>
 
-<li>Enhanced chatbot with Serper API for real-time web search.</li>
+<li>Enhanced chatbot with real-time web search using Serper API.</li>
 
 <li>Designed microflow-based API orchestration.</li>
 
 <li>Built responsive conversational UI.</li>
 
-<li>Created hybrid LLM + live retrieval architecture.</li>
+<li>Created hybrid LLM + live retrieval system.</li>
 
 </ul>
 
 <video controls>
+
 <source src="assets/chatbot-demo.mp4" type="video/mp4">
+
 </video>
 
-</div>
+</section>
 
-</div>
 
-</div>
+<section class="section contact">
+
+<h2>Contact</h2>
+
+<p>📍 Hyderabad, India</p>
+
+<p>📞 +91 9398463878</p>
+
+<p>📧 ajayithadi7@gmail.com</p>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Ajay Ithadi</p>
+
+</footer>
 
 </body>
 </html>
