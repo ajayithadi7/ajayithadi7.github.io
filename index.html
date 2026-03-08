@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -8,23 +9,21 @@
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
-
-<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-<div id="particles-js"></div>
+<header class="header">
 
-<header>
-<nav>
+<nav class="nav container">
 
-<h2 class="logo">Ajay.</h2>
+<h2 class="logo">Ajay Ithadi</h2>
 
-<ul>
+<ul class="nav_list">
 
+<li><a href="#home">Home</a></li>
 <li><a href="#about">About</a></li>
 <li><a href="#skills">Skills</a></li>
 <li><a href="#experience">Experience</a></li>
@@ -34,104 +33,112 @@
 </ul>
 
 </nav>
+
 </header>
 
-<section class="hero">
+<section class="home container" id="home">
 
-<h1 data-aos="fade-up">Ajay Ithadi</h1>
+<div class="home_data">
 
-<h3 data-aos="fade-up">Mendix Developer | AI Integrations | Low-Code Architect</h3>
+<h1>Ajay Ithadi</h1>
 
-<p data-aos="fade-up">
-Building Enterprise Low-Code + Agentic AI Systems
+<h3>Mendix Developer | Agentic AI Integrations</h3>
+
+<p>
+Building enterprise Mendix applications integrated with AI systems,
+REST APIs and modern DevOps monitoring.
 </p>
 
-<div class="buttons">
-
-<a href="https://www.linkedin.com/in/ajayithadi/" target="_blank">LinkedIn</a>
-
-<a href="https://github.com/YOURGITHUB" target="_blank">GitHub</a>
+<a href="assets/resume/Ajay_Ithadi_Resume.pdf" download class="button">
+Download Resume
+</a>
 
 </div>
 
+<img src="assets/img/profile.png" class="profile">
+
 </section>
 
-<section id="about" data-aos="fade-right">
+<section class="about container" id="about">
 
 <h2>About Me</h2>
 
 <p>
-
-Mendix Developer with hands-on experience building enterprise-scale 
-applications integrated with AI services and modern DevOps monitoring. 
-Experienced in microflows, REST API orchestration, SSO security models,
-and enterprise system integrations.
-
+Mendix Developer with hands-on experience building enterprise-scale low-code
+applications integrated with Agentic AI systems. Skilled in domain modeling,
+microflows, nanoflows, REST API orchestration and SSO-based architectures.
+Experienced in designing scalable data models and integrating Mendix with
+FastAPI services and enterprise platforms.
 </p>
 
 </section>
 
-<section id="skills">
+<section class="skills container" id="skills">
 
 <h2>Technical Skills</h2>
 
-<div class="skill-grid">
+<div class="skills_grid">
 
-<div class="card">
-<h3>Mendix</h3>
-<p>Microflows, Nanoflows, Domain Modeling</p>
-</div>
+<div class="skill_box">
 
-<div class="card">
-<h3>Integrations</h3>
-<p>REST APIs, FastAPI, JSON Mapping</p>
-</div>
-
-<div class="card">
-<h3>DevOps</h3>
-<p>Grafana Monitoring, Deployments</p>
-</div>
-
-<div class="card">
-<h3>Security</h3>
-<p>SSO, RBAC, Secure API Integration</p>
-</div>
-
-<div class="card">
-<h3>Tools</h3>
-<p>Mendix Studio Pro, Git, Postman</p>
-</div>
-
-</div>
-
-</section>
-
-<section id="experience">
-
-<h2>Experience</h2>
-
-<div class="timeline">
-
-<div class="timeline-card">
-
-<h3>Mendix Developer</h3>
-
-<h4>TCS / GSK</h4>
-
-<p>Nov 2024 - Present</p>
+<h3>Mendix Development</h3>
 
 <ul>
+<li>Microflows</li>
+<li>Nanoflows</li>
+<li>Domain Modeling</li>
+<li>Entities & Associations</li>
+<li>UI / Page Design</li>
+</ul>
 
-<li>Built enterprise Mendix applications</li>
+</div>
 
-<li>Integrated Agentic AI with FastAPI services</li>
+<div class="skill_box">
 
-<li>Implemented secure SSO authentication</li>
+<h3>Integrations & APIs</h3>
 
-<li>Developed API orchestration microflows</li>
+<ul>
+<li>REST APIs</li>
+<li>JSON Mapping</li>
+<li>Import/Export Mapping</li>
+<li>FastAPI Integration</li>
+</ul>
 
-<li>Monitored applications using Grafana</li>
+</div>
 
+<div class="skill_box">
+
+<h3>Security</h3>
+
+<ul>
+<li>SSO Configuration</li>
+<li>RBAC</li>
+<li>Secure API Integration</li>
+</ul>
+
+</div>
+
+<div class="skill_box">
+
+<h3>DevOps & Monitoring</h3>
+
+<ul>
+<li>Grafana Monitoring</li>
+<li>Application Logging</li>
+<li>Environment Deployments</li>
+</ul>
+
+</div>
+
+<div class="skill_box">
+
+<h3>Tools</h3>
+
+<ul>
+<li>Mendix Studio Pro</li>
+<li>Git</li>
+<li>Postman</li>
+<li>VS Code</li>
 </ul>
 
 </div>
@@ -140,24 +147,58 @@ and enterprise system integrations.
 
 </section>
 
-<section id="projects">
+<section class="experience container" id="experience">
 
-<h2>Featured Project</h2>
+<h2>Professional Experience</h2>
 
-<div class="project-card">
+<div class="exp_box">
 
-<h3>AI Mendix Chatbot with Live Search</h3>
+<h3>Mendix Developer</h3>
+
+<h4>TCS / GSK — Bangalore</h4>
+
+<p>Nov 2024 – Present</p>
+
+<ul>
+
+<li>Developed enterprise Mendix applications with Figma-based UI/UX.</li>
+
+<li>Implemented SSO authentication and role-based access control.</li>
+
+<li>Integrated Mendix with FastAPI-based Agentic AI services.</li>
+
+<li>Designed microflow-based API orchestration.</li>
+
+<li>Enabled context-driven AI workflows integrating JIRA and AHA.</li>
+
+<li>Monitored applications using Grafana dashboards.</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section class="projects container" id="projects">
+
+<h2>Projects</h2>
+
+<div class="project_card">
+
+<h3>AI-Powered Mendix Chatbot with Live Search</h3>
 
 <p>
 
-GenAI chatbot integrated with Google Gemini API and Serper search API
-for real-time intelligent responses.
+GenAI chatbot built using Mendix AI Starter App integrated with
+Google Gemini API and Serper API for real-time web search. Designed
+microflow-based orchestration to dynamically route queries between
+LLM and live search services.
 
 </p>
 
 <video controls width="600">
 
-<source src="project-video.mp4" type="video/mp4">
+<source src="assets/video/chatbot-demo.mp4" type="video/mp4">
 
 </video>
 
@@ -165,29 +206,33 @@ for real-time intelligent responses.
 
 </section>
 
-<section id="contact">
+<section class="certifications container">
 
-<h2>Contact Me</h2>
+<h2>Certifications</h2>
 
-<form action="https://formspree.io/f/YOURFORMID" method="POST">
+<ul>
 
-<input type="text" name="name" placeholder="Your Name" required>
+<li>Mendix Rapid Developer</li>
 
-<input type="email" name="email" placeholder="Email" required>
+<li>AWS Cloud Quest – Cloud Practitioner</li>
 
-<textarea name="message" placeholder="Your Message"></textarea>
+</ul>
 
-<button type="submit">Send Message</button>
+</section>
 
-</form>
+<section class="contact container" id="contact">
 
-<div class="contact-info">
+<h2>Contact</h2>
 
 <p>Email: ajayithadi7@gmail.com</p>
 
 <p>Phone: +91 9398463878</p>
 
-</div>
+<a href="https://www.linkedin.com/in/ajayithadi/" target="_blank">
+
+<i class="ri-linkedin-box-fill"></i> LinkedIn
+
+</a>
 
 </section>
 
@@ -196,10 +241,6 @@ for real-time intelligent responses.
 <p>© 2026 Ajay Ithadi | Mendix Developer</p>
 
 </footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-
-<script src="script.js"></script>
 
 </body>
 
